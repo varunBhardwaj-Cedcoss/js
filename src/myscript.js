@@ -1,6 +1,8 @@
 
 function fun() {
     let a = {firstName:"varun", lastName:"bhardwaj"};
-    console.log(a.firstName);
+    //acces property with var
+    let b= a.firstName
+    console.log(b);
     
 }

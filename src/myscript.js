@@ -1,3 +1,3 @@
-function funct() {
-    document.getElementById('g').innerHTML='hello';
-  }
+function funct(v,h) {
+  document.getElementById('g').innerHTML=v+' '+h;
+};

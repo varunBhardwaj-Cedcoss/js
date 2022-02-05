@@ -82,4 +82,4 @@ console.log(p);
 const wb = s+' '+m+''+f;
 console.log(wb);
 const arr = [['sourabh'],['varun','bhardwaj','sharma']];
-console.log(arr);
+console.log(arr[0]);

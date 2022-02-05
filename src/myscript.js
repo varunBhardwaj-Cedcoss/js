@@ -64,4 +64,6 @@ b/=2;
 console.log(b);
 const s = "'varun'";
 console.log(s);
+const m = "varun\nbhardwaj"; 
+console.log(m);
 

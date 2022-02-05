@@ -7,5 +7,6 @@ function fun() {
         a+=myArr[i];
       }
   console.log(a);
+  //one commit is done with the same  feature
     
 }

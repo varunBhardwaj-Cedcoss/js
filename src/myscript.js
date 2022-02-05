@@ -36,3 +36,4 @@ myVar = ++myVar;
 myVar=--myVar;
 const myDecimal= 4.7;
 const product = 2.0 * 3.0;
+const product = 2.0 / 3.0;

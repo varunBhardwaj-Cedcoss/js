@@ -5,5 +5,7 @@ function fun() {
 
   function fun1(){
       return false;
+      //return early pattern for function
+      console.log('bye');
   }
 }

@@ -1,15 +1,16 @@
-//global var declaration
-const myGlobal = 10;
 
-function fun1() {
-  // Assign 5 to oopsGlobal Here 
-const oopsGlobal = 5;
-return funct(oopsGlobal);
-//local scope of this var
+function fun(){
+const testArr = [1, 2, 3, 4, 5];
+
+  console.log("Before: " + testArr);
+  console.log(nextInLine(testArr, 6));
+  console.log("After: " + testArr);
 }
-
-// Only change code above this line
-
-function funct(a) {
-  return(console.log(a+myGlobal));
-}
+function nextInLine(arr, item) {
+  
+    let a=arr[0];
+    arr.push(item);
+    arr.shift();
+    return a; 
+  
+  }

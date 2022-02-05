@@ -6,7 +6,7 @@ function fun(){
     if(a<=50){
         return(console.log(true));
     }
-    if(c=='varun'){
+    if(c>='varun'){
         return(console.log(a));
     }
    else{

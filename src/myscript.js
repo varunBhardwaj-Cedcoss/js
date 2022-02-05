@@ -74,3 +74,5 @@ s += m;
 console.log(s.length);
 const fi = s[0];
 console.log(fi);
+s='varun';
+console.log(s);

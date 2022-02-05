@@ -4,6 +4,7 @@ function fun() {
     let ch = "c";
     switch (ch) {
         case "a":
+        case"c":
             console.log("A");
             break;
         case "b":

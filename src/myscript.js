@@ -9,6 +9,7 @@ function fun(){
     if(c>='varun'){
         return(console.log(a));
     }
+    //else statement
    else{
     return(console.log(false));
    }

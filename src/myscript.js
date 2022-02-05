@@ -5,3 +5,4 @@ line
 comment
 */
 var myName;
+var a=7;

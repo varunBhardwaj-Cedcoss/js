@@ -6,5 +6,4 @@ comment
 */
 var myName;
 var a=7;
-var b;
-b=a;
+var b=8;

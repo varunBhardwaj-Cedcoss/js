@@ -72,3 +72,5 @@ const f ='dddd'+' '+'nnn';
 console.log(f);
 s += m;
 console.log(s.length);
+const fi = s[0];
+console.log(fi);

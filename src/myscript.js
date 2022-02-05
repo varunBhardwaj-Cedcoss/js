@@ -1,23 +1,9 @@
 
 function fun() {
+    let a= fun1();
+    console.log(a);
 
-    let ch = "c";
-   /* if (ch === 'a') {
-        answer = "a";
-      } else if (ch === 'b') {
-        answer = "b";
-      } else {
-        answer = "c";
-      }*/
-    switch (ch) {
-        case "a":
-        case"c":
-            console.log("A");
-            break;
-        case "b":
-            console.log("B");
-            break;
-        default:
-            console.log("wrong input");
-    }
+  function fun1(){
+      return false;
+  }
 }

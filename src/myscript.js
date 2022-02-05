@@ -6,7 +6,7 @@ function fun(){
     if(a==50 || b==5){
         return(console.log(true));
     }
-    if(c>='varun'){
+    else if(c>='varun'){
         return(console.log(a));
     }
     //else statement

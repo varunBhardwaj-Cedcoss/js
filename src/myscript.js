@@ -1,10 +1,11 @@
 
 function fun() {
-    let ourArray=[];
-    let i=10;
-    for(;i >=1;i--) {
-        ourArray.push(i);
+    const myArr = [2, 3, 4, 5, 6];
+    let i=0;
+    let a=0;
+    for(;i<myArr.length;i++) {
+        a+=myArr[i];
       }
-  console.log(ourArray);
+  console.log(a);
     
 }

@@ -1,10 +1,23 @@
 
 function fun() {
-    let a = {firstName:"varun", lastName:"bhardwaj"};
-    //acces property with var
-    a.firstName='tarun';
-    a.middle='kumar';
-    delete a.middle;
-    console.log(a);
+    let a= phoneticLookup("charlie");
+    function phoneticLookup(val) {
+        var result = "";
+      
+        var lookup = {
+          "alpha": "Adams",
+          "bravo": "Boston",
+          "charlie": "Chicago",
+          "delta": "Denver",
+          "echo": "Easy",
+          "foxtrot": "Frank"
+        }; 
+      
+        result = lookup[val];
+      
+        return result;
+      }
+      console.log(a);
+      
     
 }

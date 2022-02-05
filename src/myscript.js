@@ -1,27 +1,17 @@
 
 function fun() {
-    var myMusic = [
-        {
-          "artist": "Billy Joel",
-          "title": "Piano Man",
-          "release_year": 1973,
-          "formats": [
-            "CS",
-            "8T",
-            "LP" ],
-          "gold": true
-        },
-        // Add record here
-        {
-          "artist": "Bob",
-          "title": "Hello",
-          "release_year": 1950,
-          "formats": [
-            "CS",
-            "8T"
-          ]
+    var myStorage = {
+        "car": {
+          "inside": {
+            "glove box": "maps",
+            "passenger seat": "crumbs"
+           },
+          "outside": {
+            "trunk": "jack"
+          }
         }
-      ];
-    console.log(myMusic);
+      };
+      var gloveBoxContents = myStorage.car.inside["glove box"]; 
+    console.log(gloveBoxContents);
     
 }

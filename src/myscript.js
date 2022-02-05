@@ -6,6 +6,7 @@ function fun(){
     if(a==50 || b==5){
         return(console.log(true));
     }
+    //logical order of if else
     else if(c>='varun'){
         return(console.log(a));
     }

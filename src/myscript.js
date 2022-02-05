@@ -4,11 +4,18 @@ multi
 line
 comment
 */
-var a;
-a=5;
-var b;
-b=10;
-var c="I am a";
-a = a + 1;
-b = b + 5;
-c = c + " String!";
+// Variable declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+var TitleCaseOver;
+var StudlyCapVar;
+var ProperCamelCase;
+// Variable assignments
+
+studlyCapVar = 10
+properCamelCase='A String';
+titleCaseOver=9000;
+TitleCaseOver = 9000;
+StudlyCapVar = 10;
+ProperCamelCase = "A String";

@@ -62,6 +62,6 @@ console.log(a);
 let b = 3;
 b/=2;
 console.log(b);
-const s = "varun, \"bhardwaj\".";
+const s = "'varun'";
 console.log(s);
 

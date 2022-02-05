@@ -59,5 +59,7 @@ const prouct = 2.0 / 3.0;
 console.log(prouct);
 const a = 2 % 3;
 console.log(a);
-console.log(myVar);
+let b = 3;
+b+=2;
+console.log(b);
 

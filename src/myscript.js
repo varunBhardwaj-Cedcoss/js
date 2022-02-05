@@ -11,8 +11,7 @@ return funct(oopsGlobal);
 // Only change code above this line
 
 function funct(a) {
-  var output='';
-    output += myGlobal;
-    output += a;
+  var output;
+    
   return(console.log(output));
 }

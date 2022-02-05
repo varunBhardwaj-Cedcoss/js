@@ -79,3 +79,5 @@ console.log(s);
 const y= s.length;
 const p = s[y-2];
 console.log(p);
+const wb = s+' '+m+''+f;
+console.log(wb);

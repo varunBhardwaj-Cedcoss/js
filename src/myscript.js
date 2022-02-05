@@ -1,4 +1,17 @@
-function funct(v,h) {
-    let a=v+h;
-return(console.log(a));
-};
+// Declare the myGlobal variable below this line
+const myGlobal = 10;
+
+function fun1() {
+  // Assign 5 to oopsGlobal Here 
+const oopsGlobal = 5;
+}
+
+// Only change code above this line
+
+function funct() {
+  var output;
+    output += myGlobal;
+    fun1()
+    output += oopsGlobal;
+  return(console.log(output));
+}

@@ -81,7 +81,7 @@ const p = s[y-2];
 console.log(p);
 const wb = s+' '+m+''+f;
 console.log(wb);
-const arr = ['varun'];
-  arr.pop();
+const arr = ['varun','bhardwaj'];
+arr.shift();
 console.log(arr);
 

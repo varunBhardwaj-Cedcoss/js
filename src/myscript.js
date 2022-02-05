@@ -77,5 +77,5 @@ console.log(fi);
 s='varun';
 console.log(s);
 const y= s.length;
-const p = s[y-1];
+const p = s[y-2];
 console.log(p);

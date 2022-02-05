@@ -82,6 +82,6 @@ console.log(p);
 const wb = s+' '+m+''+f;
 console.log(wb);
 const arr = ['varun','bhardwaj'];
-arr.shift();
+arr.unshift();
 console.log(arr);
 

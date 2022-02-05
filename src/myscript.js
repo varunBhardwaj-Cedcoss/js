@@ -4,6 +4,7 @@ function fun() {
     //acces property with var
     a.firstName='tarun';
     a.middle='kumar';
+    delete a.middle;
     console.log(a);
     
 }

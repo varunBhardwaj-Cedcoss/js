@@ -1,14 +1,13 @@
 
-function fun(){
-    let b = golfScore(5, 4);
-    function golfScore(par, strokes) {
-       if(strokes==1){return("Hole-in-one!");}
-       else if(strokes<=par-2){return("Eagle"); }
-      else if(strokes=par-1){return("Birdie");}
-      else if(strokes==par){return("Par");}
-      else if(strokes==par+1){return("Bogey");}
-       else if(strokes==par+2){return("Double Bogey");}
-       else if(strokes>=par+3){return("Go Home!");} 
+function fun() {
+
+    let ch = "a";
+    switch (ch) {
+        case "a":
+            console.log("A");
+            break;
+        case "b":
+            console.log("B");
+            break;
     }
-    console.log(b);
 }

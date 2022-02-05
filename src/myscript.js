@@ -1,7 +1,7 @@
 
 function fun() {
 
-    let ch = "a";
+    let ch = "c";
     switch (ch) {
         case "a":
             console.log("A");
@@ -9,5 +9,7 @@ function fun() {
         case "b":
             console.log("B");
             break;
+        default:
+            console.log("wrong input");
     }
 }

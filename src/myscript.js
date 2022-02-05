@@ -76,3 +76,5 @@ const fi = s[0];
 console.log(fi);
 s='varun';
 console.log(s);
+const p = s[1];
+console.log(p);
